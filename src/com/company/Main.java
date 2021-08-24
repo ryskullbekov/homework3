@@ -36,15 +36,23 @@ public class Main {
 //        num [1] [2] = 345;
 
 //
-        String name [] = {"Баястан","Руслан","Нюша"};
+        String name [] = {"Баястан","Руслан","Нюша","Саня"};
         System.out.println(" Здравствуйте : " + name[0] + " , " + name[1] + " , " + name[2] );
-        switch (name[0]){
+        for (int i = 0; i < name.length; i++)
+        switch (name[i]){
             case "Баястан":
-                System.out.println("Доброе утро : Баястан");
+                System.out.println("Доброе утро : " + name[i]);
+                break;
             case "Руслан":
-                System.out.println("Добрый день : Руслан");
+                System.out.println("Добрый день : " + name[i]);
+                break;
             case "Нюша":
-                System.out.println("Добрый вечер : Нюша");
+                System.out.println("Добрый вечер : " + name[i]);
+                break;case "Саня":
+                System.out.println("Доброй ночи : " + name[i]);
+                break;
+            default:
+                System.out.println("Нету такого имени!" + name[i]);
         }
 
 
