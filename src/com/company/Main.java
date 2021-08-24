@@ -35,6 +35,9 @@ public class Main {
 //        num [1] [1] = 12;
 //        num [1] [2] = 345;
 
+
+
+
 //
         String name [] = {"Баястан","Руслан","Нюша","Саня"};
         System.out.println(" Здравствуйте : " + name[0] + " , " + name[1] + " , " + name[2] );
